@@ -5,16 +5,18 @@
 	<head>
 	<!-- A Document that Captures the 
 			First Week of HTML coding for CMP621A  
-			---- name ----
-			---- date ----
-			---- course ----
+			Jonathon Meney
+			Mar. 26/21
+			CMP621A
 	-->
 	
 	<!-- add meta tags here. Consider charset, viewport -->
-	
+		<meta charset="UTF-8">
 	
 	<!-- Add CSS style here --> 
-	
+		<style>
+			
+		</style>
 	
 	
 		<title>HTML Week 1</title>
@@ -24,21 +26,43 @@
 	<body>
 		<h1>My first webpage!</h1>
 		
-		
 		<h2>Links </h2>
 		List of links
-		
-		<!-- Add an unordered list of three links. One links to the second webpage.
-			 -->
-		
+		<!-- Add an unordered list of three links. One links to the second webpage.-->
+		<ul>
+			<li><a href='https://trypap.com/' target='_blank'>A random website</a></li>
+			<li><a href='anchorpage.html' target='_blank'>Click here to go to anchorpage</a></li>
+			<li><a href='http://endless.horse/' target='_blank'>Another random website</a></li>
+		</ul>
 		
 		
 		<h2> TABLES of Media Content</h2>
-		Table goes here
 		<!-- Create a three column and two row table -->
 		<!-- The titles will be.... Pictures, Videos, Audio-->
 		<!-- One picture from file, one video from file, one audio from file -->
-		<!-- One picture from web, one youtube embedded, ??? your choice ??? --> 
+		<!-- One picture from web, one youtube embedded, ??? your choice ??? -->
+		<table>
+			<thead>
+				<tr>
+					<th>Pictures</th>
+					<th>Videos</th>
+					<th>Audio</th>
+				</tr>
+			</thead>
+			
+			<tbody>
+				<tr>
+					<td><img src='Images/car.jpg' alt='car'></td>
+					<td><video width='320' height='240' controls src='Video/video.mp4'></video></td>
+					<td><audio width='320' height='240' controls src='Audio/audio.mp3'></audio></td>
+				</tr>
+				<tr>
+					<td><img src='Images/Frog.jpg' alt='frog'></td>
+					<td><video width='320' height='240' controls></video></td>
+					<td><audio></audio></td>
+				</tr>
+			</tbody>
+		</table>
 		
 		<h2> Important Point 1 </h2>		
 		
